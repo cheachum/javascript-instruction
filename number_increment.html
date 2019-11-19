@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+       
+  <button onclick="button()">-</button>
+  <input id="theNbr" type="text" value="0"> 
+  <button onclick="button()">+</button>
+        
+
+<script>
+
+ let nbr = 0;
+    function button() {
+        let theNbr = document.getElementById("theNbr");
+        theNbr.value = nbr;
+       if (theNbr = /2){
+      theNbr.style.color = "red";
+       }
+       else if(theNbr == 3){
+        theNbr.style.fontStyle = "italic";
+       }
+       else(theNbr ==7) {
+            theNbr.style.fontSize = "2.5em";
+        }
+       
+    }
+    
+</script>
+</body>
+</html>
